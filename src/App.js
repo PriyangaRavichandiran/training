@@ -19,6 +19,7 @@ import USarray from './components/USarray';
 import ClassState from './components/ClassState';
 import FunctionState from './components/FunctionState';
 import FunctionEffect from './components/FunctionEffect';
+import Controlled from './components/Controlled';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <ClassState/>
       <FunctionState/>
       <FunctionEffect/>
+      <Controlled/>
     </div>
   )
 }
