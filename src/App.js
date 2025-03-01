@@ -20,10 +20,14 @@ import ClassState from './components/ClassState';
 import FunctionState from './components/FunctionState';
 import FunctionEffect from './components/FunctionEffect';
 import Controlled from './components/Controlled';
+import ControlledFunction from './components/ControlledFunction';
+import TodoApp from './components/Todo';
 
 function App() {
   return (
     <div className="App">
+      <TodoApp/>
+      <ControlledFunction/>
       <Greet/><Hello/>
       <Class name ="priya "/>
       <HelloMessage name ="priya"age="24">
